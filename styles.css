@@ -1,0 +1,80 @@
+/* styles.css for FaceSinq Landing Pages */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4A154B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: #777;
+}
+
+a {
+    color: #4A154B;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+button, .add-to-slack {
+    background-color: #4A154B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover, .add-to-slack:hover {
+    background-color: #6e1d72;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    button, .add-to-slack {
+        width: 100%;
+        padding: 15px;
+    }
+}
